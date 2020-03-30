@@ -9,6 +9,7 @@
 - git config: Set or get configuration
 - git log: Show history of project commits
 - git branch: list branches
+- git checkout: Checkout a branch (Update HEAD)
 - git checkout -b: Create branch, then check it out
 
 ## What's a branch?
