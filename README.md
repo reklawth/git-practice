@@ -8,6 +8,16 @@
 - git commit: Commit changes from staging area to current branch
 - git config: Set or get configuration
 - git log: Show history of project commits
+- git branch: list branches
+- git checkout -b: Create branch, then check it out
+
+## What's a branch?
+
+A branch is a ref(erence) to a commit.  When head points to a branch we saw we are on that branch.  When we make a commit when we are on that branch, the branch is updated to ref(er) to the new commit.
+
+## What's HEAD?
+
+HEAD is a ref(erence) to the "current" branch (or sometimes a commit).  Git commands like 'status', 'log', and 'branch' use HEAD. 'git checkout' updates HEAD to ref(er) to a different branch.
 
 ## Commit messages
 
