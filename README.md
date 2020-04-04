@@ -11,6 +11,7 @@
 - git show: Show a single commit
 - git diff: show the difference between commits, the working directory, and the staging area
 - git checkout: Check out branch (update HEAD and apply changes to working directory)
+- git branch -c: Create a branch
 - git merge: Merge changes from different branches
 
 ## Commit messages
